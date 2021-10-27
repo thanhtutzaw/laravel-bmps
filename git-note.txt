@@ -10,3 +10,4 @@ git branch -b exampleBranchName = create + switch branch
 git branch -d exampleBranchName = delete branch
 git push -u origin main = push into github
 git pull 'remote_name' 'branch_name' = pull  from github
+git pull origin main --allow-unrelated-histories = pull from github repo
